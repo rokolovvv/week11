@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.one {
+    background-color: lightblue; /* Колір фону за замовчуванням */
+    transition: background-color 0.3s ease; /* Плавний перехід для анімації */
+}
+
+.two {
+    background-color: brown;
+}
+/* Стилі при наведенні на div .two */
+.two:hover + .one {
+    background-color: lightcoral; /* Новий колір фону при наведенні на div .two */
+}
+.one img {
+    box-sizing: 20%;
+}
